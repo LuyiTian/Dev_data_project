@@ -1,5 +1,5 @@
 ---
-title       : Interactive point selection app
+title       : Interactive app for point selection in Iris data
 subtitle    : Developing Data Products - course project
 author      : Luyi Tian
 job         : University of Melbourne
@@ -11,18 +11,31 @@ mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 ---
 
-## Read-And-Delete
+## 1. overview
 
-1. Edit YAML front matter
-2. Write using R Markdown
-3. Use an empty line followed by three dashes to separate slides!
+* use Iris data in R
+* select and plot different columns
+* select point - just click your mouse on plot
+* select area - drag and select all point in that area
 
 --- .class #id 
 
-## Slide 2
+## 2. choose two column
 
-1. aaa
-2. bbb
+* all the columns in Iris data have been listed, choose two of them as X and Y axis
+![width](sidebar.png)
+
+--- .class #id 
+
+## 3. get nearest point
+
+* click your mouse on the plot and see nearest point
+![width](selectpoint.png)
+
+## 4. get all points in an area
+
+* select an area on the plot and get all points in that area
+![width](selectarea.png)
 
 
 
